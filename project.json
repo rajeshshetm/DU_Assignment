@@ -3,11 +3,13 @@
   "description": "Test DU Process",
   "main": "Main.xaml",
   "dependencies": {
+    "UiPath.DocumentUnderstanding.ML.Activities": "[1.9.1]",
     "UiPath.Excel.Activities": "[2.10.4]",
     "UiPath.IntelligentOCR.Activities": "[5.0.2]",
     "UiPath.Mail.Activities": "[1.10.5]",
+    "UiPath.OmniPage.Activities": "[1.8.0]",
     "UiPath.System.Activities": "[21.4.1]",
-    "UiPath.UIAutomation.Activities": "[21.4.4]"
+    "UiPath.UIAutomation.Activities": "[21.10.3]"
   },
   "webServices": [],
   "entitiesStores": [],

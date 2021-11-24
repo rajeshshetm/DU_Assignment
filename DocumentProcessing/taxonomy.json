@@ -14,7 +14,7 @@
       "Fields": [
         {
           "FieldId": "ABCCompany.Billing_Dept.Invoice.item",
-          "FieldName": "Item",
+          "FieldName": "Item1",
           "IsMultiValue": false,
           "Type": "Text",
           "DeriveFieldsFormat": "",
@@ -33,7 +33,7 @@
         },
         {
           "FieldId": "ABCCompany.Billing_Dept.Invoice.quantity",
-          "FieldName": "Quantity",
+          "FieldName": "Quantity1",
           "IsMultiValue": false,
           "Type": "Number",
           "DeriveFieldsFormat": "",
@@ -52,7 +52,7 @@
         },
         {
           "FieldId": "ABCCompany.Billing_Dept.Invoice.MRP",
-          "FieldName": "MRP",
+          "FieldName": "MRP1",
           "IsMultiValue": false,
           "Type": "Number",
           "DeriveFieldsFormat": "",
@@ -71,7 +71,7 @@
         },
         {
           "FieldId": "ABCCompany.Billing_Dept.Invoice.Rate",
-          "FieldName": "Rate",
+          "FieldName": "Rate1",
           "IsMultiValue": false,
           "Type": "Number",
           "DeriveFieldsFormat": "",
@@ -90,7 +90,7 @@
         },
         {
           "FieldId": "ABCCompany.Billing_Dept.Invoice.Total",
-          "FieldName": "Total",
+          "FieldName": "Total1",
           "IsMultiValue": false,
           "Type": "Number",
           "DeriveFieldsFormat": "",
@@ -106,6 +106,101 @@
               "Value": "a"
             }
           ]
+        },
+        {
+          "FieldId": "ABCCompany.Billing_Dept.Invoice.item2",
+          "FieldName": "item2",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#8a97a0"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "2"
+            }
+          ]
+        },
+        {
+          "FieldId": "ABCCompany.Billing_Dept.Invoice.Quantity2",
+          "FieldName": "Quantity2",
+          "IsMultiValue": false,
+          "Type": "Number",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#8352f9"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "y"
+            }
+          ]
+        },
+        {
+          "FieldId": "ABCCompany.Billing_Dept.Invoice.MRP2",
+          "FieldName": "MRP2",
+          "IsMultiValue": false,
+          "Type": "Number",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#d876e8"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "w"
+            }
+          ]
+        },
+        {
+          "FieldId": "ABCCompany.Billing_Dept.Invoice.Rate2",
+          "FieldName": "Rate2",
+          "IsMultiValue": false,
+          "Type": "Number",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#857c60"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "g"
+            }
+          ]
+        },
+        {
+          "FieldId": "ABCCompany.Billing_Dept.Invoice.Total2",
+          "FieldName": "Total2",
+          "IsMultiValue": false,
+          "Type": "Number",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#b0aec2"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "l"
+            }
+          ]
         }
       ]
     }
@@ -114,8 +209,7 @@
     {
       "Name": "R_Company",
       "Categories": [
-        "Billing_Dept",
-        "IT"
+        "Billing_Dept"
       ]
     }
   ],
